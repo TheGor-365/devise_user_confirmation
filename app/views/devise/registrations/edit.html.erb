@@ -19,22 +19,8 @@
             </div>
 
             <div class="form-group">
-              <%= f.label :first_name %>
-              <%= f.text_field :first_name, class: 'form-control' %>
-            </div>
-
-            <div class="form-group">
-              <%= f.label :last_name %>
-              <%= f.text_field :last_name, class: 'form-control' %>
-            </div>
-
-            <div class="form-group">
-              <%= f.label 'Profile avatar' %>
-              <div class="custom-file">
-                <%= f.label :avatar, class: 'custom-file-label' %>
-                <%= f.file_field :avatar, type: 'file', class: 'custom-file-input' %>
-                <%= f.hidden_field :avatar_cache %>
-              </div>
+              <%= f.label :username %>
+              <%= f.text_field :username, class: 'form-control' %>
             </div>
 
             <div class="form-group">

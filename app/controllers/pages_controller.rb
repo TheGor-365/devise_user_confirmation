@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
 
+  before_action :authenticate_user!, only: :home
+
   def home
   end
 
@@ -8,5 +10,5 @@ class PagesController < ApplicationController
 
   def contacts
   end
-  
+
 end
